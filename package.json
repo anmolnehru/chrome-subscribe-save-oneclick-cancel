@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@tsconfig/strictest": "^2.0.5",
-    "@types/chrome": "0.0.268",
+    "@types/chrome": "^0.0.268",
     "@types/jest": "^29.5.12",
     "@types/raygun4js": "^3.0.0",
     "@typescript-eslint/eslint-plugin": "^7.12.0",

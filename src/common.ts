@@ -49,7 +49,7 @@ export async function processCancelQueue(itemCancelButtonButtonBySubscriptionId:
             await new Promise((resolve) => setTimeout(resolve, 3000));
 
             // Redirect back to subscriptions page to trigger the next cancellation
-            window.location.href = "https://www.amazon.com/hz/mycd/myx#/home/settings/";
+            window.location.href = "https://www.amazon.com/auto-deliveries/subscriptionList";
             return; // Stop execution here; reload will trigger next cancellation
         } else {
             console.error("Confirm button not found!");
